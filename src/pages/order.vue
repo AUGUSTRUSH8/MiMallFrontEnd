@@ -1,7 +1,7 @@
 <template>
     <div>
         <order-header></order-header>
-        cart
+        <router-view></router-view>
         <nav-footer></nav-footer>
     </div>
 </template>
@@ -9,7 +9,7 @@
     import OrderHeader from './../components/OrderHeader'
     import NavFooter from './../components/NavFooter'
     export default {
-        name:'cart',
+        name:'order',
         components: {
             OrderHeader,
             NavFooter
