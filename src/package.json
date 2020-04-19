@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "element-ui": "^2.13.1",
+    "mockjs": "^1.1.0",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "vue-awesome-swiper": "^4.1.0",
